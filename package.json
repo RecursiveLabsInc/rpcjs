@@ -2,23 +2,38 @@
   "name": "rpcjs",
   "version": "1.0.0",
   "description": "Promise-based RPC. Works in browser, node, electron, you name it. Any transport you like.",
-  "main": "index.js",
+  "main": "rpcjs.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha *.test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sidekickcode/rpcjs.git"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
   },
   "keywords": [
     "promise",
     "rpc",
     "async"
   ],
-  "author": "",
+  "author": "Tim Ruffles <timruffles@googlemail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sidekickcode/rpcjs/issues"
   },
-  "homepage": "https://github.com/sidekickcode/rpcjs#readme"
+  "devDependencies": {
+    "bluebird": "^3.3.4",
+    "chai": "^3.5.0",
+    "lodash": "^3.10.2",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3"
+  },
+  "homepage": "https://github.com/sidekickcode/rpcjs#readme",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "lodash": "^3.10.1",
+    "universal-promise-helpers": "^1.0.1"
+  }
 }
