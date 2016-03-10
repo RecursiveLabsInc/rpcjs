@@ -1,0 +1,24 @@
+{
+  "name": "rpcjs",
+  "version": "1.0.0",
+  "description": "Promise-based RPC. Works in browser, node, electron, you name it. Any transport you like.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidekickcode/rpcjs.git"
+  },
+  "keywords": [
+    "promise",
+    "rpc",
+    "async"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sidekickcode/rpcjs/issues"
+  },
+  "homepage": "https://github.com/sidekickcode/rpcjs#readme"
+}
