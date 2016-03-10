@@ -1,6 +1,6 @@
 {
   "name": "rpcjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Promise-based RPC. Works in browser, node, electron, you name it. Any transport you like.",
   "main": "rpcjs.js",
   "scripts": {
