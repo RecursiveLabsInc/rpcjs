@@ -1,6 +1,6 @@
 {
   "name": "rpcjs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Promise-based RPC. Works in browser, node, electron, you name it. Any transport you like.",
   "main": "rpcjs.js",
   "scripts": {
@@ -33,6 +33,7 @@
   "homepage": "https://github.com/sidekickcode/rpcjs#readme",
   "dependencies": {
     "bluebird": "^3.3.4",
+    "debug": "^2.2.0",
     "lodash": "^3.10.1",
     "universal-promise-helpers": "^1.0.1"
   }
