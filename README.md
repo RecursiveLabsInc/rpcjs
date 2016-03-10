@@ -105,3 +105,11 @@ Returns value of property on actor at point at which message is received. Serial
 Transports are very simple. They call a RpcPair's `.incoming` method with incoming messages, and use `.setSend` to inform a pair that it can send messages via this transport.
 
 That's it! Take a look at `transports/streamTransport.js` to see a transport that lets RPCjs work with TCP/UDP/HTTPS or whatever streams you like, however crazy the chain of compression, encryption etc in that stream is!
+
+## Debug
+
+To see debug messages, set the DEBUG env var:
+
+```sh
+DEBUG=rpcjs node yourApp.js
+```
