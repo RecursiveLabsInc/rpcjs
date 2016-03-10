@@ -135,7 +135,7 @@ function ActorRegister() {
 
     var found = actors[id];
     if(found) {
-      return Promise.resolve(notExpired(found));
+      return PromiseConstructor.resolve(notExpired(found));
     } else {
       return timeoutPromise(
         n
