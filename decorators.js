@@ -3,7 +3,11 @@
  *
  */
 
-var _ = require("lodash");
+ var _ = {
+     each: require('lodash/each'),
+     isObject: require('lodash/isObject'),
+     slice: require('lodash/slice')
+ };
 
 /**
  * returns a function callable with k,v or {k: v, ...}

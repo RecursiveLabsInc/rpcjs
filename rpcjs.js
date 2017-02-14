@@ -92,7 +92,12 @@
 "use strict";
 
 var EventEmitter = require("events").EventEmitter;
-var _ = require("lodash");
+var _ = {
+    defaults: require('lodash/defaults'),
+    extend: require('lodash/extend'),
+    partial: require('lodash/partial'),
+    slice: require('lodash/slice')
+};
 var promiseHelpers = require("universal-promise-helpers");
 var decorators = require("./decorators");
 var helpers = require("./helpers");
@@ -376,4 +381,3 @@ function ensureError(err) {
 function resultEvent(message) {
   return "result:" + message.id;
 }
-
